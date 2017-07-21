@@ -1,0 +1,23 @@
+{
+  "name": "terabot-repository",
+  "scripts": {
+  },
+  "env": {
+    "FB_ACCESS_TOKEN": {
+      "required": true
+    },
+    "FB_VERIFY_TOKEN": {
+      "required": true
+    }
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
